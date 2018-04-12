@@ -19,6 +19,14 @@ nav {
     border-bottom: 4px solid #293241;
 }
 
+/* Header Section */
+header {
+    display: inline-block;
+    height: 80px;
+    background-color: aquamarine;
+    border-bottom: 2px solid #eef2f5;
+    width: 85%;
+}
 /* Main Sections */
 main {
     display: inline-block;
