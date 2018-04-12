@@ -1,0 +1,60 @@
+
+/* Nav sections */
+nav {
+    width: 250px;
+    min-width: 200px;
+    min-height: 100%;
+    background-color: #354052;
+}
+
+.profile-section {
+    border-bottom: 4px solid #293241;
+}
+
+.nav-main-section {
+    border-bottom: 4px solid #293241;
+}
+
+
+/* Images and Icons */
+
+.profile-pic {
+    border-radius: 50%;
+    height: 85px;
+    width: 85px;
+    margin-top: 30px;
+    margin-left: 85px;
+    text-align: center;
+}
+
+.icon-box {
+    background-color: magenta;
+    height: 500px;
+    width: 500px;
+    color: chartreuse;
+}
+
+/* Text Styling */
+#profile-name {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: #A0ACBF;
+    margin-top: 15px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.nav-headings {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #65748D;
+    font-size: 1rem;
+    padding-left: 25px;
+}
+
+li {
+    list-style-type: none;
+    color: #A0ACBF;
+    padding-bottom: 20px;
+}
