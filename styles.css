@@ -1,48 +1,97 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
 
 /* Nav sections */
+
 nav {
-    width: 250px;
-    min-width: 200px;
+    width: 20%;
+    min-width: 15%;
     min-height: 100%;
     background-color: #354052;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
 .profile-section {
     border-bottom: 4px solid #293241;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 175px;
+    flex-direction: column;
 }
 
-.nav-main-section {
+.nav-sections {
     border-bottom: 4px solid #293241;
 }
 
+/* Header Section */
+header {
+    display: flex;
+    height: 80px;
+    border-bottom: 2px solid #EEF2F5;
+    width: 80%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.search-bar-container {
+    width: 40%;
+}
+
+.search-bar {
+    height: 94%;
+    width: 100%;
+    border: none;
+    padding-left: 20px;
+}
+
+.top-right-buttons {
+    width: 8%;
+    border-right: 2px solid #EEF2F5;
+}
+
+.top-right-buttons:hover {
+    background-color: aqua;
+    cursor: pointer;
+}
+
+
+
+
+/* Main Sections */
+
+.h1-container {
+    position: absolute;
+    top: 80px;
+    left: 20%;
+    height: 150px;
+    width: 100%;
+    border-bottom: 2px solid #EEF2F5;
+}
 
 /* Images and Icons */
 
 .profile-pic {
     border-radius: 50%;
-    height: 85px;
-    width: 85px;
+    height: 80px;
+    width: 80px;
     margin-top: 30px;
-    margin-left: 85px;
-    text-align: center;
-}
-
-.icon-box {
-    background-color: magenta;
-    height: 500px;
-    width: 500px;
-    color: chartreuse;
 }
 
 /* Text Styling */
 #profile-name {
-    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     line-height: 1.5rem;
     color: #A0ACBF;
     margin-top: 15px;
     font-size: 16px;
     text-align: center;
+    padding-bottom: 10px;
 }
 
 .nav-headings {
@@ -56,5 +105,30 @@ nav {
 li {
     list-style-type: none;
     color: #A0ACBF;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
+    font-size: 0.75em;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 1.25em;
+    font-weight: 400;
+    line-height: 3em;
+    color: #4E515E;
+    padding-left: 30px;
+}
+
+.location-paragraph {
+    font-weight: 400;
+    color: #8a95a5;
+    position: relative;
+    left: 50px;
+    bottom: 25px;
+    font-size: 0.65em;
+}
+
+/* List Stylings */
+.nav-list-item:hover {
+    color: #EEF2F5;
+    cursor: pointer;
 }
