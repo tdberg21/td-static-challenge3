@@ -5,7 +5,7 @@
 /* Nav sections */
 
 nav {
-    width: 20%;
+    width: 15%;
     min-width: 15%;
     min-height: 100%;
     background-color: #354052;
@@ -33,7 +33,7 @@ header {
     display: flex;
     height: 80px;
     border-bottom: 2px solid #EEF2F5;
-    width: 80%;
+    width: 85%;
     position: absolute;
     right: 0;
     top: 0;
@@ -48,6 +48,8 @@ header {
     width: 100%;
     border: none;
     padding-left: 20px;
+    color: #A0ACBF;
+    font-size: 0.75em;
 }
 
 .top-right-buttons {
@@ -56,22 +58,38 @@ header {
 }
 
 .top-right-buttons:hover {
-    background-color: aqua;
+    background-color: #15A4FA;
     cursor: pointer;
 }
 
+.add-user-button {
+    border-left: 2px solid #EEF2F5;
+}
 
-
-
-/* Main Sections */
+/* Main Section */
 
 .h1-container {
     position: absolute;
     top: 80px;
-    left: 20%;
-    height: 150px;
+    left: 15%;
+    height: 160px;
     width: 100%;
-    border-bottom: 2px solid #EEF2F5;
+    border-bottom: 3px solid #EEF2F5;
+}
+
+.header-list-container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Sub-content Section */
+.sub-content {
+    background-color: #ecf2f6;
+    height: 2000px;
+    width: 85vw;
+    position: absolute;
+    left: 15%;
+    top: 243px;
 }
 
 /* Images and Icons */
@@ -102,14 +120,6 @@ header {
     padding-left: 25px;
 }
 
-li {
-    list-style-type: none;
-    color: #A0ACBF;
-    padding-bottom: 15px;
-    font-size: 0.75em;
-    font-weight: 600;
-}
-
 h1 {
     font-size: 1.25em;
     font-weight: 400;
@@ -123,12 +133,49 @@ h1 {
     color: #8a95a5;
     position: relative;
     left: 50px;
-    bottom: 25px;
+    bottom: 35px;
     font-size: 0.65em;
+    display: inline-block;
+}
+.preview-location-separator {
+    display: inline-block;
+}
+
+.preview-link {
+    display: inline-block;
+    color: #15A4FA;
+    text-decoration: none;
+    font-size: 0.65em;
+    padding-left: 3px;
+    position: relative;
+    left: 50px;
+    bottom: 35px;
 }
 
 /* List Stylings */
+
+li {
+    list-style-type: none;
+    color: #A0ACBF;
+    padding-bottom: 15px;
+    font-size: 0.75em;
+    font-weight: 600;
+}
+
 .nav-list-item:hover {
     color: #EEF2F5;
+    cursor: pointer;
+}
+
+.header-list {
+    display: inline-block;
+    margin-right: 13px;
+    position: relative;
+    bottom: 20px;
+}
+
+.header-list:hover {
+    border-bottom: 2px solid #15A4FA;
+    color: #333;
     cursor: pointer;
 }
