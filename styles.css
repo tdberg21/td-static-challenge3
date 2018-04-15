@@ -339,7 +339,7 @@ li {
 
 .interviews-graph {
     border-bottom-color: chartreuse;
-    border-left-color: chartreuse; 
+    border-left-color: chartreuse;
 }
 
 .forwards-graph {
@@ -352,6 +352,7 @@ li {
     font-weight: 700;
     font-size: 0.65em;
 }
+
 h2 {
     margin: 0;
 }
@@ -387,4 +388,8 @@ h2 {
 .graph-buttons {
     background-color: #FFFFFF;
     font-weight: 600;
+    border: 1.5px solid #A0ACBF;
+    color: #A0ACBF;
+    height: 30px;
+    border-radius: 12px;
 }
