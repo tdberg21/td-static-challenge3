@@ -1,12 +1,12 @@
 * {
     font-family: 'Open Sans', sans-serif;
+    color: #4E515E;
 }
 
 /* Nav sections */
 
 nav {
     width: 15vw;
-    /* min-width: 15%; */
     min-height: 100%;
     background-color: #354052;
     display: inline-block;
@@ -124,7 +124,6 @@ h1 {
     font-size: 1.5em;
     font-weight: 400;
     line-height: 3em;
-    color: #4E515E;
     padding-left: 55px;
     margin-bottom: 0;
     margin-top: 10px;
@@ -231,4 +230,59 @@ li {
 .header-buttons:hover {
     background-color: #15A4FA;
     color: #FFFFFF;
+}
+
+/* Circle Graphs */
+
+.circle-graph-holder {
+    width: 50%;
+    display: flex;
+    height: 300px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 30px;
+}
+
+.circle-graphs {
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    border: 8px solid #A0ACBF;
+    border-left: 8px solid #A0ACBF;
+    border-bottom: 8px solid magenta;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+}
+
+.circle-graph-numbers {
+    font-size: 2.4em;
+    font-weight: 600;
+    letter-spacing: -2px;
+}
+
+.applicants-graph {
+    border-top-color: magenta;
+    border-left-color: magenta;
+}
+
+.interviews-graph {
+    border-bottom-color: chartreuse;
+    border-left-color: chartreuse; 
+}
+
+.forwards-graph {
+    border-bottom-color: lightskyblue;
+}
+
+.circle-graph-paragraphs {
+    margin: 0;
+    color: #A0ACBF;
+    font-weight: 700;
+    font-size: 0.65em;
+}
+h2 {
+    margin: 0;
 }
