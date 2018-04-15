@@ -49,10 +49,10 @@ header {
     border: none;
     font-size: 0.85em;
     font-weight: 600;
-    background-image: url(./images/magnifying-glass.svg);
+    /* background-image: url(./images/magnifying-glass.svg);
     background-position: left;
     background-repeat: no-repeat;
-    background-size: 15px 15px;
+    background-size: 15px 15px; */
 }
 
 .search-bar::placeholder {
@@ -144,6 +144,12 @@ header {
     margin-top: 30px;
 }
 
+.nav-bar-icons {
+    height: 15px;
+    width: 15px;
+    padding-right: 10px;
+}
+
 /* Text Styling */
 #profile-name {
     font-weight: 400;
@@ -208,19 +214,19 @@ li {
 }
 
 .nav-list-item {
-    width: 11vw;
-    padding: 7.5px 0 7.5px 45px;
+    width: 12.6vw;
+    font-size: 0.8em;
+    padding: 7.5px 0 7.5px 25px;
 }
 
 .nav-ul {
     padding: 0;
-    
 }
 
 .nav-list-item:hover {
     color: #EEF2F5;
     cursor: pointer;
-    border-left: 2px solid #15A4FA;
+    border-left: 3px solid #15A4FA;
     background-color: #293241;
 }
 
@@ -254,7 +260,7 @@ li {
     border-radius: 50%;
     font-size: 0.8em;
     font-weight: 700;
-    border: 1.5px solid #A0ACBF;
+    border: 1px solid #A0ACBF;
     background-size: 15px 15px;
     background-position: center;
     background-repeat: no-repeat;
@@ -293,7 +299,6 @@ li {
 .open-button {
     width: 6em;
     border-radius: 12px;
-    
 }
 
 .header-buttons:hover {
@@ -392,4 +397,37 @@ h2 {
     color: #A0ACBF;
     height: 30px;
     border-radius: 12px;
+}
+
+.graph-buttons:hover {
+    background-color: #15A4FA;
+    color: #FFFFFF;
+}
+
+/* divider section */
+
+.divider-section {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+hr {
+    width: 45%;
+    background-color: #A0ACBF;
+    height: 1px;
+    margin: 0 5px;
+}
+
+.divider-button {
+    font-weight: 700;
+    border-radius: 50%;
+    height: 28px;
+    width: 28.5px;
+    border: 1.3px solid #A0ACBF;
+    background-image: url(./images/arrow-up-grey.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 10px 10px;
 }
