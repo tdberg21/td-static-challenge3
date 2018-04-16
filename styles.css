@@ -437,7 +437,7 @@ hr {
     width: 60%;
     position: absolute;
     left: 3%;
-    top: 350px;
+    margin-top: 5%;
 }
 
 .job-description-header-container {
@@ -481,6 +481,7 @@ hr {
     width: 70%;
     font-weight: 400;
     font-size: 1.1em;
+    padding-right: 10px;
 }
 
 .edit-job-description-button {
@@ -493,4 +494,74 @@ hr {
     font-weight: 600;
     text-transform: uppercase;
     font-size: 0.8em;
+}
+
+/* Social Media and Links Section */
+
+.social-media-button-container {
+    position: absolute;
+    right: 0;
+    width: 28%;
+    margin-right: 4%;
+    margin-top: 5%
+}
+
+.social-media-buttons {
+    width: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #3B5998;
+    border: none;
+    margin: 0 0 20px 0;
+    font-size: 0.9em;
+    padding: 15px 0 15px 0;
+    background-position: 8% 52%;
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+
+}
+
+.facebook-button {
+    background-image: url(images/fbook.svg);
+}
+
+.twitter-button {
+    background-color: #1DA1F2;
+    background-image: url(./images/twitter.svg);
+}
+
+.linked-in-button {
+    background-color: #0077B5;
+    background-image: url(images/linked-in.svg);
+    margin-bottom: 5px;
+}
+
+/* Input Section */
+
+/* h4 {
+    margin-top: 0;
+} */
+
+.input-fields-holder {
+    padding-bottom: 20px;
+    border-bottom: 2px solid #7e8ba0;
+}
+
+.link-to-job-input {
+    width: 80%;
+    margin: 0;
+    height: 40px;
+    border: none;
+}
+
+.copy-button {
+    width: 17%;
+    margin: 0;
+    border: none;
+    color: #FFFFFF;
+    background-color: #47BAC1;
+    height: 42px;
+    position: relative;
+    right: 4px;
+    bottom: 1px;
 }
