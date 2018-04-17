@@ -3,6 +3,10 @@
     color: #4E515E;
 }
 
+button {
+    cursor: pointer;
+}
+
 /* Nav sections */
 
 nav {
@@ -149,6 +153,15 @@ header {
     padding-right: 10px;
 }
 
+.uncle-kracker-pic {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 8px;
+    margin-right: 10px;
+}
+
 /* Text Styling */
 #profile-name {
     font-weight: 400;
@@ -244,7 +257,7 @@ li {
 }
 
 .categories-section {
-    padding-bottom: 1394px;
+    padding-bottom: 1372px;
 }
 
 /* Header Buttons */
@@ -297,7 +310,7 @@ li {
 
 .open-button {
     width: 6em;
-    border-radius: 12px;
+    border-radius: 3em;
 }
 
 .header-buttons:hover {
@@ -375,7 +388,7 @@ h2 {
 
 .bar-graph {
     height: 150px;
-    width: 70%;
+    width: 95%;
 }
 
 .bar-graph:hover {
@@ -392,7 +405,7 @@ h2 {
 .graph-buttons {
     background-color: #FFFFFF;
     font-weight: 600;
-    border: 1.5px solid #A0ACBF;
+    border: 1px solid #A0ACBF;
     color: #A0ACBF;
     height: 30px;
     border-radius: 12px;
@@ -410,6 +423,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 15px;
 }
 
 hr {
@@ -501,8 +515,8 @@ hr {
 .social-media-button-container {
     position: absolute;
     right: 0;
-    width: 28%;
-    margin-right: 4%;
+    width: 30%;
+    margin-right: 3.5%;
     margin-top: 5%
 }
 
@@ -517,8 +531,7 @@ hr {
     padding: 15px 0 15px 0;
     background-position: 8% 52%;
     background-size: 15px 15px;
-    background-repeat: no-repeat;
-
+    background-repeat: no-repeat;  
 }
 
 .facebook-button {
@@ -538,13 +551,9 @@ hr {
 
 /* Input Section */
 
-/* h4 {
-    margin-top: 0;
-} */
-
 .input-fields-holder {
     padding-bottom: 20px;
-    border-bottom: 2px solid #7e8ba0;
+    border-bottom: 1px solid #A0ACBF;
 }
 
 .link-to-job-input {
@@ -565,3 +574,177 @@ hr {
     right: 4px;
     bottom: 1px;
 }
+
+.upload-resumes-input {
+    width: 100%;
+}
+
+h4 {
+    margin-bottom: 0.5em;
+}
+
+.input-fields-paragraphs {
+    color: #6f7e95;
+    font-size: 0.8em;
+}
+
+@media (min-width: 1400px) {
+    * {
+        color: magenta;
+    }
+
+    body {
+        max-width: 1000px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 973px) {
+    
+    nav {
+        display: none;
+    }
+    
+    header {
+        width: 100vw;
+    }
+    
+    .h1-container {
+        width: 100vw;
+        left: 0;
+    }
+    
+    .sub-content {
+        width: 100vw;
+        left: 0;
+    }
+}
+
+@media (max-width: 810px) {
+    
+    .bar-graph-holder {
+        position: relative;
+        width: 100%;
+        height: 220px;
+    }
+    
+    .bar-graph {
+        width: 80%;
+        height: 95%;
+        padding-bottom: 20px;
+    }
+    
+    .circle-graph-holder {
+        width: 90%;
+        justify-content: space-around;
+    }
+    
+    h1 {
+        padding-left: 10px;
+    }
+    
+    .location-paragraph {
+        left: 10px;
+    }
+    
+    .preview-link {
+        left: 10px;
+    }
+    
+    .header-list {
+        padding-left: 0;
+    }
+    
+    .header-list-item {
+        margin: 0 10px; 
+    }
+    
+    .copy-button {
+        padding: 0;
+    }
+    
+    .link-to-job-input {
+        width: 70%;
+    }
+}
+
+@media (max-width: 645px) {
+    .header-list-item {
+        margin: 0 3px; 
+    }
+
+    .header-buttons {
+        display: none;
+    }
+
+    .social-media-buttons {
+        font-size: 0.75em;
+    }   
+}
+
+@media (max-width: 550px) {
+    .sub-content {
+        height: 2500px;
+    }
+
+    .header-list-item {
+        font-size: 0.6em;
+    }
+
+    .job-description-table-holder {
+        width: 94%;
+        margin: auto;
+    }
+
+    .social-media-button-container {
+        position: relative;
+        top: 800px;
+        width: 90%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 485px) {
+    .social-media-button-container {
+        top: 850px;
+    }
+
+    h1 {
+        font-size: 1em;
+        margin-top: 34px;
+    }
+}
+
+@media (max-width: 450px) {
+    h1 {
+        font-size: 1em;
+        margin-top: 0;
+    }
+
+    .circle-graph-holder {
+        padding: 0;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 405px) {
+    .social-media-button-container {
+        top: 890px;
+    }
+
+    .circle-graph-holder {
+        flex-direction: column;
+        height: 500px;
+    }
+
+    .search-bar::placeholder {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 351px) {
+    .search-bar::placeholder {
+        font-size: 0.7em;
+    }
+}
+
