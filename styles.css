@@ -289,10 +289,6 @@ li {
     width: 2.3rem;
 }
 
-.header-buttons:hover {
-    cursor: pointer;
-}
-
 .flag-header-button {
     background-image: url(./images/bookmark.svg);
     right: 20%;
@@ -410,8 +406,7 @@ h2 {
 }
 
 .bar-graph {
-    height: 150px;
-    width: 85%;
+    height: 11rem;
 }
 
 .bar-graph:hover {
@@ -537,6 +532,12 @@ hr {
     width: 70px;
 }
 
+
+.hiring-lead {
+    display: flex;
+    align-items: center;
+}
+
 .approved-salary-amount {
     color: #333;
     font-weight: 600;
@@ -585,7 +586,7 @@ hr {
 
 .input-fields-holder {
     border-bottom: 1px solid #A0ACBF;
-    padding-bottom: 20px;
+    padding-bottom: 33px;
 }
 
 .link-to-job-input {
@@ -785,6 +786,11 @@ h4 {
 @media (max-width: 351px) {
     .search-bar::placeholder {
         font-size: 0.7em;
+    }
+
+    .circle-graphs {
+        height: 130px;
+        width: 130px;
     }
 }
 
