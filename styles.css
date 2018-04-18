@@ -630,6 +630,11 @@ h4 {
 
 }
 
+@media (min-width: 1300px) {
+.search-bar {
+    background-position: 2% 51%;
+}
+
 @media (max-width: 975px) {
     nav {
         display: none;
