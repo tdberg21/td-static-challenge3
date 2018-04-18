@@ -630,12 +630,6 @@ h4 {
 
 }
 
-/* @media (min-width: 1400px) {
-    h1 {
-        font-size: 150px;
-    }
-} */
-
 @media (max-width: 975px) {
     nav {
         display: none;
