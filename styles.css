@@ -357,11 +357,11 @@ li {
 }
 
 .circle-graphs {
-    height: 130px;
-    width: 130px;
+    height: 125px;
+    width: 125px;
     border-radius: 50%;
     border: 8px solid #A0ACBF;
-    border-bottom: 8px solid magenta;
+    border-bottom: 8px solid #1CC6B1;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -377,17 +377,17 @@ li {
 
 .applicants-graph {
     margin-left: 10px;
-    border-top-color: magenta;
-    border-left-color: magenta;
+    border-top-color: #1CC6B1;
+    border-left-color: #1CC6B1;
 }
 
 .interviews-graph {
-    border-bottom-color: chartreuse;
-    border-left-color: chartreuse;
+    border-bottom-color: #1AC8F3;
+    border-left-color: #1AC8F3;
 }
 
 .forwards-graph {
-    border-bottom-color: lightskyblue;
+    border-bottom-color: #9661A5;
 }
 
 .circle-graph-paragraphs {
