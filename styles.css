@@ -1,6 +1,6 @@
 * {
-    font-family: 'Open Sans', sans-serif;
     color: #4E515E;
+    font-family: 'Open Sans', sans-serif;
 }
 
 button {
@@ -10,22 +10,22 @@ button {
 /* Nav sections */
 
 nav {
-    width: 15vw;
-    min-height: 100%;
     background-color: #354052;
     display: inline-block;
-    position: absolute;
     left: 0;
+    min-height: 100%;
+    position: absolute;
     top: 0;
+    width: 15vw;
 }
 
 .profile-section {
+    align-items: center;
     border-bottom: 4px solid #293241;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 175px;
     flex-direction: column;
+    height: 175px;
+    justify-content: center;
 }
 
 .nav-sections {
@@ -35,13 +35,13 @@ nav {
 /* Header Section */
 
 header {
+    border-bottom: 2px solid #EEF2F5;
     display: flex;
     height: 80px;
-    border-bottom: 2px solid #EEF2F5;
-    width: 85vw;
     position: absolute;
     right: 0;
     top: 0;
+    width: 85vw;
 }
 
 .search-bar-container {
@@ -49,34 +49,34 @@ header {
 }
 
 .search-bar {
-    height: 99%;
-    width: 99.5%;
-    border: none;
-    font-size: 0.85em;
-    font-weight: 600;
     background-image: url(./images/magnifying-glass.svg);
     background-position: 3% 51%;
     background-repeat: no-repeat;
     background-size: 15px 15px;
+    border: none;
+    font-size: 0.85em;
+    font-weight: 600;
+    height: 99%;
+    width: 99.5%;
 }
 
 .search-bar::placeholder {
     color: #A0ACBF;
-    position: relative;
     left: 40px;
+    position: relative;
 }
 
 /* Header Buttons */
 
-.top-right-buttons {
-    width: 9%;
-    border-right: 2px solid #EEF2F5;
+.search-bar-buttons {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 23px 23px;
+    border-right: 2px solid #EEF2F5;
+    width: 9%;
 }
 
-.top-right-buttons:hover {
+.search-bar-buttons:hover {
     background-color: #15A4FA;
     cursor: pointer;
 }
@@ -90,39 +90,39 @@ header {
 }
 
 .add-user-button {
+    background-image: url(./images/add-user.svg);
     border-left: 2px solid #EEF2F5;
-    background-image: url(./images/add-user.svg)
 }
 
 .add-user-button:hover {
-    background-image: url(./images/add-user-white.svg)
+    background-image: url(./images/add-user-white.svg);
 }
 
 .calendar-button {
-    background-image: url(./images/calendar-grey.svg)
+    background-image: url(./images/calendar-grey.svg);
 }
 
 .calendar-button:hover {
-    background-image: url(./images/calendar-white.svg)
+    background-image: url(./images/calendar-white.svg);
 }
 
 .table-button {
-    background-image: url(./images/table-grey.svg)
+    background-image: url(./images/table-grey.svg);
 }
 
 .table-button:hover {
-    background-image: url(./images/table-white.svg)
+    background-image: url(./images/table-white.svg);
 }
 
 /* Main Section */
 
 .h1-container {
+    border-bottom: 3px solid #EEF2F5;
+    height: 160px;
+    left: 15%;
     position: absolute;
     top: 80px;
-    left: 15%;
-    height: 160px;
     width: 85vw;
-    border-bottom: 3px solid #EEF2F5;
 }
 
 .header-list-container {
@@ -131,13 +131,14 @@ header {
 }
 
 /* Sub-content Section */
+
 .sub-content {
     background-color: #ecf2f6;
     height: 2000px;
-    width: 85vw;
-    position: absolute;
     left: 15%;
+    position: absolute;
     top: 243px;
+    width: 83vw;
 }
 
 /* Images and Icons */
@@ -145,55 +146,49 @@ header {
 .profile-pic {
     border-radius: 50%;
     height: 80px;
-    width: 80px;
     margin-top: 30px;
+    width: 80px;
 }
 
 .nav-bar-icons {
     height: 15px;
+    padding-right: 7px;
     width: 15px;
-    padding-right: 10px;
-}
-
-.nav-bar-squares {
-    height: 15px;
-    width: 15px;
-    background-color: magenta;
-    margin-left: 10px;
 }
 
 .uncle-kracker-pic {
     border-radius: 50%;
-    height: 50px;
-    width: 50px;
+    height: 80px;
+    margin-right: 10px;
     position: relative;
     top: 8px;
-    margin-right: 10px;
+    width: 80px;
 }
 
 .small-location-icon {
     height: 13px;
-    width: 15px;
     position: relative;
     top: 2px;
+    width: 15px;
 }
 
 /* Text Styling */
+
 #profile-name {
+    color: #A0ACBF;
+    font-size: 16px;
     font-weight: 400;
     line-height: 1.5rem;
-    color: #A0ACBF;
     margin-top: 15px;
-    font-size: 16px;
-    text-align: center;
     padding-bottom: 10px;
+    text-align: center;
 }
 
 .nav-headings {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
     color: #65748D;
+    font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
+    font-weight: 700;
     padding-left: 25px;
 }
 
@@ -201,50 +196,50 @@ h1 {
     font-size: 1.5em;
     font-weight: 400;
     line-height: 3em;
-    padding-left: 55px;
     margin-bottom: 0;
     margin-top: 10px;
+    padding-left: 55px;
 }
 
 .location-paragraph {
-    font-weight: 400;
-    color: #8A95A5;
-    position: relative;
-    left: 57px;
     bottom: 25px;
-    font-size: 0.8em;
+    color: #8A95A5;
     display: inline-block;
+    font-size: 0.8em;
+    font-weight: 400;
+    left: 57px;
     margin-bottom: 0;
+    position: relative;
 }
 .preview-location-separator {
     display: inline-block;
 }
 
 .preview-link {
-    display: inline-block;
+    bottom: 25px;
     color: #15A4FA;
-    text-decoration: none;
+    display: inline-block;
     font-size: 0.8em;
+    left: 58px;
     padding-left: 3px;
     position: relative;
-    left: 58px;
-    bottom: 25px;
+    text-decoration: none;
 }
 
 /* List Stylings */
 
 li {
-    list-style-type: none;
     color: #A0ACBF;
-    padding-bottom: 15px;
     font-size: 0.75em;
     font-weight: 600;
+    list-style-type: none;
+    padding-bottom: 15px;
 }
 
 .nav-list-item {
-    width: 12.6vw;
     font-size: 0.8em;
     padding: 7.5px 0 7.5px 25px;
+    width: 12.6vw;
 }
 
 .nav-ul {
@@ -252,18 +247,18 @@ li {
 }
 
 .nav-list-item:hover {
+    background-color: #293241;
+    border-left: 3px solid #15A4FA;
     color: #EEF2F5;
     cursor: pointer;
-    border-left: 3px solid #15A4FA;
-    background-color: #293241;
 }
 
 .header-list-item {
+    bottom: 8px;
     display: inline-block;
     margin-left: 18px;
     margin-right: 15px;
     position: relative;
-    bottom: 8px;
 }
 
 .header-list-item:hover {
@@ -279,19 +274,19 @@ li {
 /* Header Buttons */
 
 .header-buttons {
-    position: absolute;
-    bottom: 80px;
-    right: 27%;
-    color: #A0ACBF;
-    height: 2.2rem;
-    width: 2.3rem;
-    border-radius: 50%;
-    font-size: 0.8em;
-    font-weight: 700;
-    border: 1px solid #A0ACBF;
-    background-size: 15px 15px;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: 15px 15px;
+    border-radius: 50%;
+    border: 1px solid #A0ACBF;
+    bottom: 80px;
+    color: #A0ACBF;
+    font-size: 0.8em;
+    font-weight: 700;
+    height: 2.2rem;
+    position: absolute;
+    right: 27%;
+    width: 2.3rem;
 }
 
 .header-buttons:hover {
@@ -299,8 +294,8 @@ li {
 }
 
 .flag-header-button {
-    right: 20%;
     background-image: url(./images/bookmark.svg);
+    right: 20%;
 }
 
 .flag-header-button:hover {
@@ -308,16 +303,16 @@ li {
 }
 
 .pencil-header-button {
-    right: 14%;
     background-image: url(./images/pencil-edit-button.svg);
+    right: 14%;
 }
 .pencil-header-button:hover {
     background-image: url(./images/pencil-white.svg);
 }
 
 .trash-header-button {
-    right: 8%;
     background-image: url(./images/delete-photo.svg);
+    right: 8%;
 }
 
 .trash-header-button:hover {
@@ -325,19 +320,19 @@ li {
 }
 
 .open-button {
-    width: 6em;
     border-radius: 3em;
     padding: 0 0 5px 7px;
+    width: 6em;
 }
 
 .green-circle-icon-div {
     background-color: #8CC63E;
-    height: 8px;
-    width: 8px;
     border-radius: 50%;
+    height: 8px;
+    left: 5px;
     position: relative;
     top: 13px;
-    left: 5px;
+    width: 8px;
 }
 
 .header-buttons:hover {
@@ -348,25 +343,24 @@ li {
 /* Circle Graphs */
 
 .circle-graph-holder {
-    width: 48%;
+    align-items: center;
     display: flex;
     height: 200px;
-    align-items: center;
     justify-content: space-between;
     padding: 0 25px;
+    width: 48%;
 }
 
 .circle-graphs {
-    height: 125px;
-    width: 125px;
+    align-items: center;
     border-radius: 50%;
     border: 8px solid #A0ACBF;
-    border-bottom: 8px solid #1CC6B1;
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
+    height: 125px;
+    justify-content: center;
     margin: 0;
+    width: 125px;
 }
 
 .circle-graph-numbers {
@@ -376,9 +370,10 @@ li {
 }
 
 .applicants-graph {
-    margin-left: 10px;
-    border-top-color: #1CC6B1;
     border-left-color: #1CC6B1;
+    border-top-color: #1CC6B1;
+    border-bottom-color: #1CC6B1;
+    margin-left: 10px;
 }
 
 .interviews-graph {
@@ -391,26 +386,27 @@ li {
 }
 
 .circle-graph-paragraphs {
-    margin: 0;
     color: #A0ACBF;
-    font-weight: 700;
     font-size: 0.65em;
+    font-weight: 700;
+    margin: 0;
 }
 
 h2 {
     margin: 0;
 }
 
-/* bar graph */
+/* Bar Graph */
+
 .bar-graph-holder {
-    width: 48%;
+    align-items: center;
     display: flex;
     height: 200px;
-    align-items: center;
     justify-content: center;
     position: absolute;
     right: 0;
     top: 0;
+    width: 48%;
 }
 
 .bar-graph {
@@ -431,11 +427,11 @@ h2 {
 
 .graph-buttons {
     background-color: #FFFFFF;
-    font-weight: 600;
+    border-radius: 12px;
     border: 1px solid #A0ACBF;
     color: #A0ACBF;
+    font-weight: 600;
     height: 30px;
-    border-radius: 12px;
 }
 
 .graph-buttons:hover {
@@ -446,39 +442,39 @@ h2 {
 /* divider section */
 
 .divider-section {
-    padding-top: 30px;
-    display: flex;
     align-items: center;
+    display: flex;
     justify-content: center;
     margin-bottom: 15px;
+    padding-top: 30px;
 }
 
 hr {
-    width: 45%;
     background-color: #A0ACBF;
     height: 1px;
     margin: 0 5px;
+    width: 45%;
 }
 
 .divider-button {
-    font-weight: 700;
-    border-radius: 50%;
-    height: 28px;
-    width: 28.5px;
-    border: 1.3px solid #A0ACBF;
     background-image: url(./images/arrow-up-grey.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 10px 10px;
+    border-radius: 50%;
+    border: 1.3px solid #A0ACBF;
+    font-weight: 700;
+    height: 28px;
+    width: 28.5px;
 }
 
 /* Job Description Table/List */
 
 .job-description-table-holder {
-    width: 60%;
-    position: absolute;
     left: 3%;
     margin-top: 5%;
+    position: absolute;
+    width: 60%;
 }
 
 .job-description-header-container {
@@ -487,10 +483,10 @@ hr {
 
 .job-description-header {
     color: #FFFFFF;
-    padding: 25px;
     font-size: 0.8em;
     font-weight: 600;
     letter-spacing: 0.85px;
+    padding: 25px;
     text-transform: uppercase;
 }
 
@@ -502,43 +498,43 @@ hr {
 
 .job-description-list-item {
     border-bottom: 1px solid #EEF2F5;
-    padding: 10px 0;
     display: flex;
     justify-content: space-between;
+    padding: 10px 0;
 }
 
 .job-table-text {
+    color: #6F7E95;
     display: inline-block;
-    color: #6f7e95;
 }
 
 .job-table-h3 {
-    text-transform: uppercase;
     font-size: 1em;
     font-weight: 700;
+    text-transform: uppercase;
 }
 
 .job-table-paragraph {
-    width: 70%;
-    font-weight: 400;
     font-size: 1.1em;
+    font-weight: 400;
     padding-right: 10px;
+    width: 70%;
 }
 
 .edit-job-description-button {
     background-color: #7e8ba0;
-    color: #FFFFFF;
-    border: none;
-    margin-left: 20px;
-    height: 30px;
-    width: 70px;
-    font-weight: 600;
-    text-transform: uppercase;
-    font-size: 0.8em;
     background-image: url(images/pencil-white.svg);
-    background-size: 10px 10px;
-    background-repeat: no-repeat;
     background-position: 18% 45%;
+    background-repeat: no-repeat;
+    background-size: 10px 10px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 0.8em;
+    font-weight: 600;
+    height: 30px;
+    margin-left: 20px;
+    text-transform: uppercase;
+    width: 70px;
 }
 
 .approved-salary-amount {
@@ -549,25 +545,25 @@ hr {
 /* Social Media and Links Section */
 
 .social-media-button-container {
+    margin-right: 3.5%;
+    margin-top: 5%;
     position: absolute;
     right: 0;
     width: 30%;
-    margin-right: 3.5%;
-    margin-top: 5%
 }
 
 .social-media-buttons {
-    width: 100%;
-    text-align: center;
-    color: #FFFFFF;
     background-color: #3B5998;
-    border: none;
-    margin: 0 0 20px 0;
-    font-size: 0.9em;
-    padding: 15px 0 15px 0;
     background-position: 8% 52%;
-    background-size: 15px 15px;
     background-repeat: no-repeat;  
+    background-size: 15px 15px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 0.9em;
+    margin: 0 0 20px 0;
+    padding: 15px 0 15px 0;
+    text-align: center;
+    width: 100%;
 }
 
 .facebook-button {
@@ -588,35 +584,35 @@ hr {
 /* Input Section */
 
 .input-fields-holder {
-    padding-bottom: 20px;
     border-bottom: 1px solid #A0ACBF;
+    padding-bottom: 20px;
 }
 
 .link-to-job-input {
-    width: 80%;
-    margin: 0;
-    height: 40px;
     border: none;
-    text-align: center;
     font-size: 0.8em;
+    height: 40px;
+    margin: 0;
+    text-align: center;
     text-overflow: ellipsis;
+    width: 80%;
 }
 
 .copy-button {
-    width: 17%;
-    margin: 0;
-    border: none;
-    color: #FFFFFF;
     background-color: #47BAC1;
+    border: none;
+    bottom: 1px;
+    color: #FFFFFF;
     height: 42px;
+    margin: 0;
     position: relative;
     right: 4px;
-    bottom: 1px;
+    width: 17%;
 }
 
 .upload-resumes-input {
-    width: 98%;
     text-align: left;
+    width: 98%;
 }
 
 h4 {
@@ -641,7 +637,6 @@ h4 {
 } */
 
 @media (max-width: 975px) {
-    
     nav {
         display: none;
     }
@@ -661,28 +656,27 @@ h4 {
     }
 
     .circle-graphs {
-    height: 110px;
-    width: 110px;
+        height: 110px;
+        width: 110px;
     }
 }
 
 @media (max-width: 810px) {
-    
     .bar-graph-holder {
+        height: 220px;
         position: relative;
         width: 100%;
-        height: 220px;
     }
     
     .bar-graph {
-        width: 80%;
         height: 95%;
         padding-bottom: 20px;
+        width: 80%;
     }
     
     .circle-graph-holder {
-        width: 90%;
         justify-content: space-around;
+        width: 90%;
     }
     
     h1 {
@@ -738,15 +732,15 @@ h4 {
     }
 
     .job-description-table-holder {
-        width: 94%;
         margin: auto;
+        width: 94%;
     }
 
     .social-media-button-container {
+        margin: auto;
         position: relative;
         top: 800px;
         width: 90%;
-        margin: auto;
     }
 }
 
@@ -768,8 +762,8 @@ h4 {
     }
 
     .circle-graph-holder {
-        padding: 0;
         margin: 0 auto;
+        padding: 0;
     }
 }
 

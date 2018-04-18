@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Static Comp 3</title>
+    <title>Kid Rock- Profile</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="styles.css"/>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700" rel="stylesheet">
@@ -40,26 +40,30 @@
             <section class="nav-sections">
                 <h3 class="nav-headings">Categories</h3>
                 <ul class="nav-ul categories-section">
-                    <li class="nav-list-item"><img src="./images/yellow-checkbox.svg" alt="yellow checkbox icon" class="nav-bar-icons">Administrative</li>
-                    <div class="nav-bar-squares blue-square"></div>
+                    <li class="nav-list-item"><img src="./images/yellow-square.svg" alt="yellow checkbox icon" class="nav-bar-icons" aria-checked="true"> Administrative</li>
                     <li class="nav-list-item">
-                        Design</li>
-                    <li class="nav-list-item">Executive</li>
-                    <li class="nav-list-item">Human Resources</li>
+                        <img src="./images/blue-square.svg" alt="blue checkbox icon" class="nav-bar-icons" aria-checked="true">
+                    Design</li>
+                    <li class="nav-list-item">
+                        <img src="./images/red-square.svg" alt="red checkbox icon" class="nav-bar-icons" aria-checked="true">
+                    Executive</li>
+                    <li class="nav-list-item">
+                        <img src="./images/green-square.svg" alt="green checkbox icon" class="nav-bar-icons" aria-checked="true">
+                    Entertainer</li>
                 </ul>
             </section>
         </nav>
         <header>
-            <section class="top-right-buttons hamburger-button">
+            <section class="search-bar-buttons hamburger-button">
             </section>
             <section class="search-bar-container">
                 <input type="text" class="search-bar" aria-label="Search for job, task or resume" placeholder= "Search for a job, task or resume">
             </section>
-            <div class="top-right-buttons add-user-button">
+            <div class="search-bar-buttons add-user-button">
             </div>
-            <div class="top-right-buttons calendar-button">
+            <div class="search-bar-buttons calendar-button">
             </div>
-            <div class="top-right-buttons table-button">   
+            <div class="search-bar-buttons table-button">   
             </div>
         </header>
         <main>
@@ -169,7 +173,7 @@
                             Link to this Job</h4>
                             <p class="input-fields-paragraphs">Fast, on a rough road riding High, through the mountains climbing</p>
                             <form class="input-form">
-                                <input type="text" placeholder="https://kidrock.bawitdabadabangdabang.com" class="link-to-job-input"> 
+                                <input type="text" placeholder="https://kidrock.bawitdabadabangdabang.com" class="link-to-job-input" aria-label="Copy link to current job"> 
                                 <button class="copy-button">Copy</button>
                             </form>
                         </article>
@@ -179,17 +183,17 @@
                             Use the Button Widget</h4>
                             <p class="input-fields-paragraphs">I was born free, born free</p>
                             <form class="input-form">
-                                <input type="text" placeholder="https://kidrock.bawitdabadabangdabang.com" class="link-to-job-input">
+                                <input type="text" placeholder="https://kidrock.bawitdabadabangdabang.com" class="link-to-job-input" aria-label="Use the button widget">
                                 <button class="copy-button">Copy</button>
                             </form>
                         </article>
                         <article class="input-fields-holder">
                             <h4>
-                                <img src="images/airplane-grey.svg" alt="widget icon" class="input-icons">
+                                <img src="images/airplane-grey.svg" alt="Upload Resumes icon" class="input-icons">
                             Upload Resumes by Email</h4>
                             <p class="input-fields-paragraphs">I was born free, born free</p>
                             <form class="input-form">
-                                <input type="text" placeholder="kidrock@gmail.com" class="link-to-job-input upload-resumes-input">
+                                <input type="text" placeholder="kidrock@gmail.com" class="link-to-job-input upload-resumes-input" aria-label="Upload Resume Input">
                             </form>
                         </article>
                     </section>
