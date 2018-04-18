@@ -33,6 +33,7 @@ nav {
 }
 
 /* Header Section */
+
 header {
     display: flex;
     height: 80px;
@@ -65,7 +66,8 @@ header {
     left: 40px;
 }
 
-/* header buttons */
+/* Header Buttons */
+
 .top-right-buttons {
     width: 9%;
     border-right: 2px solid #EEF2F5;
@@ -153,6 +155,13 @@ header {
     padding-right: 10px;
 }
 
+.nav-bar-squares {
+    height: 15px;
+    width: 15px;
+    background-color: magenta;
+    margin-left: 10px;
+}
+
 .uncle-kracker-pic {
     border-radius: 50%;
     height: 50px;
@@ -160,6 +169,13 @@ header {
     position: relative;
     top: 8px;
     margin-right: 10px;
+}
+
+.small-location-icon {
+    height: 13px;
+    width: 15px;
+    position: relative;
+    top: 2px;
 }
 
 /* Text Styling */
@@ -257,7 +273,7 @@ li {
 }
 
 .categories-section {
-    padding-bottom: 1372px;
+    padding-bottom: 1354px;
 }
 
 /* Header Buttons */
@@ -311,6 +327,17 @@ li {
 .open-button {
     width: 6em;
     border-radius: 3em;
+    padding: 0 0 5px 7px;
+}
+
+.green-circle-icon-div {
+    background-color: #8CC63E;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    position: relative;
+    top: 13px;
+    left: 5px;
 }
 
 .header-buttons:hover {
@@ -330,8 +357,8 @@ li {
 }
 
 .circle-graphs {
-    height: 110px;
-    width: 110px;
+    height: 130px;
+    width: 130px;
     border-radius: 50%;
     border: 8px solid #A0ACBF;
     border-bottom: 8px solid magenta;
@@ -388,7 +415,7 @@ h2 {
 
 .bar-graph {
     height: 150px;
-    width: 95%;
+    width: 85%;
 }
 
 .bar-graph:hover {
@@ -504,10 +531,19 @@ hr {
     border: none;
     margin-left: 20px;
     height: 30px;
-    width: 60px;
+    width: 70px;
     font-weight: 600;
     text-transform: uppercase;
     font-size: 0.8em;
+    background-image: url(images/pencil-white.svg);
+    background-size: 10px 10px;
+    background-repeat: no-repeat;
+    background-position: 18% 45%;
+}
+
+.approved-salary-amount {
+    color: #333;
+    font-weight: 600;
 }
 
 /* Social Media and Links Section */
@@ -561,6 +597,9 @@ hr {
     margin: 0;
     height: 40px;
     border: none;
+    text-align: center;
+    font-size: 0.8em;
+    text-overflow: ellipsis;
 }
 
 .copy-button {
@@ -576,11 +615,12 @@ hr {
 }
 
 .upload-resumes-input {
-    width: 100%;
+    width: 98%;
+    text-align: left;
 }
 
 h4 {
-    margin-bottom: 0.5em;
+    margin-bottom: 0.em;
 }
 
 .input-fields-paragraphs {
@@ -588,18 +628,19 @@ h4 {
     font-size: 0.8em;
 }
 
-@media (min-width: 1400px) {
-    * {
-        color: magenta;
-    }
+.input-icons {
+    position: relative;
+    top: 5px;
 
-    body {
-        max-width: 1000px;
-        margin: auto;
-    }
 }
 
-@media (max-width: 973px) {
+/* @media (min-width: 1400px) {
+    h1 {
+        font-size: 150px;
+    }
+} */
+
+@media (max-width: 975px) {
     
     nav {
         display: none;
@@ -617,6 +658,11 @@ h4 {
     .sub-content {
         width: 100vw;
         left: 0;
+    }
+
+    .circle-graphs {
+    height: 110px;
+    width: 110px;
     }
 }
 
